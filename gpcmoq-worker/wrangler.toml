@@ -1,0 +1,9 @@
+name = "gpcmoq"
+compatibility_date = "2025-01-01"
+
+assets = { directory = "./public" }
+
+routes = [
+  { pattern = "gpcmoq.com", custom_domain = true },
+  { pattern = "www.gpcmoq.com", custom_domain = true }
+]
